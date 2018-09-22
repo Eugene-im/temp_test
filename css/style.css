@@ -67,3 +67,31 @@ ul{
     background: violet;
     overflow: hidden;
 } */
+
+
+.text{
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 25px;
+    line-height: 25px;
+    /* white-space: nowrap; */
+    /* text-transform: capitalize; */
+    /* direction: rtl; */
+    /* text-decoration: underline; */
+    /* unicode-bidi: isolate; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 5px; */
+    quotes: "88" "88";
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 900;
+    font-variant: small-caps;
+    color: rgb(0, 0, 0);
+    cursor: cell;
+}
+
+.text::first-letter{
+    color: rebeccapurple;
+    font-size: 55px;
+}
+span{vertical-align: top;}
