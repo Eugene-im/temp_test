@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body{
     left: 10px; */
     /* float: right; */
     /* width: 100px;
-    position: absolute; */
+    position: absolute;
 }
 
 .class-34{
@@ -66,4 +66,4 @@ li{
 ul{
     background: violet;
     overflow: hidden;
-}
+} */
