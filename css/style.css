@@ -5,39 +5,65 @@
 body{
     height: 200vh;
 }
-.class-11{
-    width: 250px;
-    height: 50px;
-    background: green;
-    position:relative;
-     /* top: 10px; */
-
+[class*="class-1"]{
+    /* height: 100px; */
+    /* top:10px;
+    left: 10px; */
+    /* float: right; */
+    /* width: 100px;
+    position: absolute; */
 }
 
-nav li{
-    display: inline-block;
+.class-34{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left:50px;
+    background: lightcyan;
+}
+
+.class-33{
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    top: 0px;
+    left:0px;
+    background: lightcyan;
+}
+
+.class-11{
+    width: 150px;
+    position: absolute;
+    background-color: #afa;
+    float: right;
 }
 
 .class-12{
-    width: 100px;
-    height: 150px;
-    background: darkslateblue;
-    border:2px solid grey;
-    /* position: absolute; */
-    /* top:20px; */
-    /* left:50px; */
+    width: 75px;
+    background-color: #adc; 
+    height: 150px ;
     float: left;
 }
 
-.class-14,.class-15{
-    width: 20px;
-    height: 20px;
-    background: red;
-    /* float: left; */
-    /* position: absolute; */
-}
-.class-15{
+.class-14{
+    width: 60px;
+    background-color: red; 
+    height: 180px;
     float: right;
-    height: 150px;
-background: yellow
+}
+
+.class-15{
+    z-index: 3;
+    width: 50px;
+    background-color: darkblue; 
+}
+
+li{
+    float: right;
+    list-style-type: none;
+}
+ul{
+    background: violet;
+    overflow: hidden;
 }
